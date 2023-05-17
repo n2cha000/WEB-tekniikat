@@ -1,5 +1,5 @@
 body {
-    background-image: url('../Kuvat/uutiskuva.jpg');
+    background-image: url('../Kuvat/uutiskuva.jpg');     /* Taustakuva sivustoille  */
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -23,12 +23,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
-
-
-/* Modify the background color */
 .navbar-custom {
 	background-color:#065DDF;
 }
@@ -43,10 +37,16 @@ grid-area: footer;
   left: 0;
   bottom: 0;
   width: 100%;
+  text-align: center;
+  line-height: 5;
 
 }
 
+p {
 
+color: white;
+
+}
 
   .navbar-nav > li{
     padding-left:30px;
@@ -68,7 +68,7 @@ grid-area: footer;
   }
   
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #4a79f0;
   }
   
   .accordion:after {
